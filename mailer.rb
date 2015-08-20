@@ -8,7 +8,7 @@ class Mailer
     # :domain               => 'your.host.name',
     @options = { :address              => "smtp.gmail.com",
             :port                 => 587,
-            :user_name            => 'blake41',
+            :user_name            => ENV['USERNAME'],
             :password             => ENV['GOOGLE_PASS'],
             :authentication       => 'plain',
             :enable_starttls_auto => true  }
