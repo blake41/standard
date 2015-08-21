@@ -33,7 +33,7 @@ private
     "#{base_url}#{token}"
   end
   def formatted_hotel_cost(hotel)
-    sold_old?(hotel) ? "is Sold Out" : formatted_cost(hotel)
+    sold_out?(hotel) ? "is Sold Out" : formatted_cost(hotel)
   end
 
   def formatted_cost(hotel)
