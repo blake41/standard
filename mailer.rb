@@ -1,7 +1,7 @@
 require 'mail'
  # ["blake41@gmail.com", "steven.nunez@gmail.com", "joemburgess@gmail.com"]
 class Mailer
-  DISTRO_LIST = ["masha.rikhter@gmail.com"]
+  DISTRO_LIST = ["blake41@gmail.com", "steven.nunez@gmail.com", "joemburgess@gmail.com", "masha.rikhter@gmail.com"]
   attr_reader(:options)
 
   def initialize
