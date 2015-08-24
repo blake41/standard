@@ -7,7 +7,7 @@
 #
 set :output, "cron_log.log"
 #
-every 1.day, :at => '7:00 am' do
+every 1.day, :at => '10:00 am' do
   command "ruby /Users/blake/Documents/Development/flatiron_school/standard/runner.rb"
 end
 #
